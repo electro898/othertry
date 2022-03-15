@@ -23,7 +23,7 @@ export default function Home( {posts} ){
 
 export async function getStaticProps(){
 
-  const res = await fetch('http://headlesswpnext.local/graphql', {
+  const res = await fetch('http://positivityminds.com/graphql', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
